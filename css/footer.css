@@ -4,4 +4,43 @@ hr {
 
 .rodape {
     padding: 1em;
+    text-align: center;
+}
+
+.lista-rodape {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lista-rodape {
+        display: block;
+    }
+
+    .lista-rodape__item {
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+
+    .lista-rodape__link {
+        color: var(--cinza-secundario);
+        text-decoration: none;
+        margin-left: 0.6em;
+        font-size: 14px;
+    }
+
+    .lista-rodape__titulo {
+        text-transform: uppercase;
+        color: var(--cinza);
+        font-size: 14px;
+    }
+
+    .rodape__titulo {
+        font-size: 24px;
+    }
 }

@@ -79,3 +79,27 @@
 .descricao__estrelas {
     margin: 0 0 .5em 0;
 }
+
+@media screen and (min-width: 1024px) {
+    .carrosel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 2em 0;
+    }
+
+    .swiper {
+        width: 70%;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 50%;
+        margin: 2.5em auto;
+    }
+}
